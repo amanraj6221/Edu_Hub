@@ -1,0 +1,52 @@
+{
+  "name": "edusangrah-server",
+  "version": "1.0.0",
+  "description": "Backend server for EduSangrah (Node.js + Express + MongoDB)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "edusangrah",
+    "backend"
+  ],
+  "author": "Aman Raj",
+  "license": "MIT",
+  "dependencies": {
+    "@sec-ant/zxing-wasm": "^2.2.0",
+    "@zxing/library": "^0.21.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "html2canvas": "^1.4.1",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^3.0.3",
+    "lucide-react": "^0.544.0",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "node-zxing": "^0.1.4",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf2pic": "^3.2.0",
+    "puppeteer": "^24.22.2",
+    "qrcode-reader": "^1.0.4",
+    "react-to-print": "^3.1.1",
+    "sharp": "^0.34.4",
+    "socket.io": "^4.8.1",
+    "tesseract.js": "^6.0.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.3.3"
+  }
+}
